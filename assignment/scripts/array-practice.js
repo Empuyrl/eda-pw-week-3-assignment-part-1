@@ -32,13 +32,14 @@ console.log('First animal is', animalArray[0]);
 
 // 3.a. TODO: Log the second animal in the array 
 animalArray[1];
+console.log('Second animal is', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
 animalArray.indexOf('bird');
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
-animalArray.[animalArray.length - 3];
+animalArray[animalArray.length - 1];
 
 
 // 4. Adding & Removing Array Items
@@ -89,7 +90,7 @@ console.log('The favorite foods are now', favoriteFoods);
 removedFood = favoriteFoods.shift();
 removedFood = favoriteFoods.shift();
 favoriteFoods.unshift('Pizza');
-favoriteFoods.unshift('Ramen';)
+favoriteFoods.unshift('Ramen');
 console.log('The favorite foods are now', favoriteFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
@@ -98,9 +99,9 @@ console.log('The favorite foods are now', favoriteFoods);
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
-let favoriteFoods = "Ramen and Pizza and Fruit and Eggs";
+let favoriteFare = "Ramen and Pizza and Fruit and Eggs";
 
-let text = favoriteFoods.toString();
+let text = favoriteFare.toString();
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
